@@ -1,5 +1,5 @@
 # load the model file
-model_file <-"/models/fit_lm.rds"
+model_file <-"./models/fit_lm.rds"
 model <- readRDS(model_file)
 
 # Define a function to make predictions using the model

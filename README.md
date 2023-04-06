@@ -31,3 +31,15 @@ Modify the default files to get started with your own project.
 * `predict_dt_serve.R` -- R wrapper file used by CML Model for decision tree model
 * `predict_lm_serve.R` -- R wrapper file used by CML Model for regression model
 
+## CML Models
+
+### Deploying the add numbers function model
+
+![Alt text](/images/add_two_numbers.png "Add two numbers model")<br>
+### Deploying the Regression model
+
+![Alt text](/images/cml_regression_model.png "Regression model")<br>
+### Deploying the Decision Tree model
+
+![Alt text](/images/cml_decision_tree_model.png "Decision Tree model")
+
