@@ -1,9 +1,0 @@
-{
-    name: 'r-template',
-    skipInAirgap: true,
-    scripts: [
-        'entry.R',
-        'server.R',
-        'ui.R'
-        ]
-}

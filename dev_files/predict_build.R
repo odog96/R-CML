@@ -1,5 +1,5 @@
 # Load the decision tree model from file
-model_file <- "fit_tree.rds"
+model_file <- "./models/fit_tree.rds"
 model <- readRDS(model_file)
 
 # Load the Cars93 data set
@@ -45,7 +45,8 @@ row_idx <- sample(nrow(Cars93), 1)
 input <- Cars93[row_idx, ]
 
 input <- input[, (names(input) %in% c("Weight", "Cylinders"))]
-
+input_json <- toJSON(input)
+cat(input_json)
 
 
 model_file <- "fit_lm.rds"
