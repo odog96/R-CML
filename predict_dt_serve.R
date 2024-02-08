@@ -1,6 +1,6 @@
-# Load the decision tree model from file
 library(cml)
 
+# Load the decision tree model from file
 model_file <- "./models/fit_tree.rds"
 model <- readRDS(model_file)
 

@@ -1,6 +1,6 @@
-# load the model file
 library(cml)
 
+# load the model file
 model_file <-"./models/fit_lm.rds"
 model <- readRDS(model_file)
 
